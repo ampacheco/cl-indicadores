@@ -1,0 +1,9 @@
+[submodule "themes/minimal"]
+	path = themes/minimal
+	url = https://github.com/calintat/minimal.git
+[submodule "themes/hugo-chart"]
+	path = themes/hugo-chart
+	url = git@github.com:Shen-Yu/hugo-chart.git
+[submodule "hugo-chart"]
+	path = hugo-chart
+	url = git@github.com:Shen-Yu/hugo-chart.git
