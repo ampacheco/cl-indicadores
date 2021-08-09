@@ -1,7 +1,7 @@
 ---
 title: "Principales Indicadores Económicos de Chile"
 date: 2021-08-08
-tags: ["go", "golang", "hugo", "themes"]
+tags: ["finannzas", "chile", "economía", "negocios"]
 draft: false
 ---
 
