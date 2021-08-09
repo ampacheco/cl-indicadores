@@ -1,3 +1,6 @@
 # cl-indicadores
 
-## Issues with the site published
+## Tasks
+
+- [x] Completado el templating
+- [ ] Cambiar tipo de gráficos
