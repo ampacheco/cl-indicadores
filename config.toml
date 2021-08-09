@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://ampacheco.github.io/cl-indicadores/"
 languageCode = "en-us"
 title = "Minimal"
 theme = ["hugo-chart","minimal"]
