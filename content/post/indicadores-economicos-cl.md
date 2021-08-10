@@ -18,18 +18,11 @@ draft: false
             labels: ['Lunes 2/8','Martes 3/8', 'Miercoles 4/8', 'Jueves 5/8', 'Viernes 6/8'],
             datasets: [
             {
-                label: 'Dataset 1',
+                label: 'Week August 2-6',
                 data: [760.2, 761.39, 774.54, 775.54, 776.69],
                 borderColor: 'rgba(255, 99, 132, 0.2)',
                 backgroundColor: 'rgba(255, 99, 132, 1)',
-            },
-            {
-                label: 'Dataset 2',
-                data: [760.2, 761.39, 774.54, 775.54, 776.69],
-                borderColor: 'rgba(255, 99, 132, 0.2)',
-                backgroundColor: 'rgba(255, 99, 132, 1)',     
-            }
-            ]
+            }],
         },
         options: {
             responsive: true,
