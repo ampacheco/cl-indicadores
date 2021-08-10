@@ -10,7 +10,38 @@ draft: false
 - UF
 - Cobre
 
-## USD Line Chart
+## USD Line Chart > Semana Actual
+{{< chart >}}
+{
+        type: 'line',
+        data: {
+            labels: ['Lunes 2/8','Martes 3/8', 'Miercoles 4/8', 'Jueves 5/8', 'Viernes 6/8'],
+            datasets: [
+            {
+                label: 'Week August 2-6',
+                data: [784.5],
+                borderColor: 'rgba(255, 99, 132, 0.2)',
+                backgroundColor: 'rgba(255, 99, 132, 1)',
+            }],
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: true,
+                    text: 'Valores USD'
+                }
+            }
+        }
+}
+{{< /chart >}}
+
+
+
+## USD Line Chart > Semana Anterior
 {{< chart >}}
 {
         type: 'line',
