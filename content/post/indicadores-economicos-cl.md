@@ -15,7 +15,7 @@ draft: false
 {
     type: 'line',
      data: {
-  labels: labels,
+  labels: Utils.months({count: data.labels.length + 1}),
   datasets: [
     {
       label: 'Dataset 1',
