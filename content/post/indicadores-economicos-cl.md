@@ -12,18 +12,22 @@ draft: false
 
 ## USD Line Chart
 {{< chart >}}
+{
     type: 'line',
     data: {
-       labels: [
-            'L-02-Agosto', 
-            'M-03-Agosto', 
-            'Mx-04-Agosto', 
-            'J-05-Agosto', 
-            'V-06-Agosto', 
-        ],
-        datasets: [{
-            label: 'Última Semana',
-            data: [760.2, 761.39, 774.54, 775.54, 776.69])
+        labels: labels,
+        datasets: [
+        {
+            label: 'Dataset 1',
+            data: Utils.numbers(NUMBER_CFG),
+            borderColor: Utils.CHART_COLORS.red,
+            backgroundColor: Utils.transparentize(Utils.CHART_COLORS.red, 0.5),
+        },
+        {
+            label: 'Dataset 2',
+            data: Utils.numbers(NUMBER_CFG),
+            borderColor: Utils.CHART_COLORS.blue,
+            backgroundColor: Utils.transparentize(Utils.CHART_COLORS.blue, 0.5),
         }]
     },
     options: {
@@ -34,11 +38,13 @@ draft: false
         },
         title: {
             display: true,
-            text: 'Indicadores Financieros Dólar Chile'
-      }
+            text: 'Chart.js Line Chart'
+        }
     }
-  }
+}
 {{< /chart >}}
+
+
 
 ## USD
 
