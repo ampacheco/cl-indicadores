@@ -10,6 +10,36 @@ draft: false
 - UF
 - Cobre
 
+## USD Line Chart
+{{< chart >}}
+    type: 'line',
+    data: {
+       labels: [
+            'L-02-Agosto', 
+            'M-03-Agosto', 
+            'Mx-04-Agosto', 
+            'J-05-Agosto', 
+            'V-06-Agosto', 
+        ],
+        datasets: [{
+            label: 'Última Semana',
+            data: [760.2, 761.39, 774.54, 775.54, 776.69])
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+            position: 'top',
+        },
+        title: {
+            display: true,
+            text: 'Indicadores Financieros Dólar Chile'
+      }
+    }
+  }
+{{< /chart >}}
+
 ## USD
 
 {{< chart >}}
