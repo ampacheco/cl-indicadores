@@ -17,6 +17,16 @@ draft: false
     data: {    
     },
     options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'top',
+            },
+            title: {
+                display: true,
+                text: 'Valores USD'
+            }
+        }
     }
 }
 {{< /chart >}}
