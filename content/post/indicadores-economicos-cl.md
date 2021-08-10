@@ -15,7 +15,7 @@ draft: false
 {
     type: 'line',
      data: {
-  labels: Utils.months({count: data.labels.length + 1}),
+  labels: ['Lunes 2/8','Martes 3/8', 'Miercoles 4/8', 'Jueves 5/8', 'Viernes 6/8'],
   datasets: [
     {
       label: 'Dataset 1',
