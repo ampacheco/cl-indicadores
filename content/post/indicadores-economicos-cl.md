@@ -19,7 +19,7 @@ draft: false
             datasets: [
             {
                 label: 'Week August 9-13',
-                data: [784.5],
+                data: [784.5, 787.40],
                 borderColor: 'rgba(255, 99, 132, 0.2)',
                 backgroundColor: 'rgba(255, 99, 132, 1)',
             }],
